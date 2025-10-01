@@ -2,7 +2,7 @@
 #	INFORMAÇÕES DO PROBLEMA
 # VELOCIDADE MEDIA DE UM TREM = 30km/h
 # TEMPO MÉDIO PARA TROCAR DE ESTAÇÃO = 4 mins
-
+########
 ## PROBLEMA DO METRO DE PARIS ##
 ## considerando a Vm do metrô ==> 30km/h ##
 ## tempo médio para troca de estação ==> 4 min ##
@@ -179,4 +179,5 @@ for i in range (0, len(final)):
 
 print("TRAVELED: {} KM WITH {} STATION CHANGE".format(km, stationChange))
 print("ESTIMATED TIME: {} MINUTES".format(timeConvert(km) + 4*stationChange))
+
 
