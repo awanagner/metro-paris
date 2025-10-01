@@ -8,7 +8,7 @@
 ## tempo médio para troca de estação ==> 4 min ##
 
 ## NOME DAS ESTAÇÕES ##
-
+##
 E = ["La Défense", "Charles de Gaulle Étoile", "Concorde", "Palais Royal Musée du Louvre", "Reuilly-Diderot", 
 	"Daumesnil", "Gare de Lyon", "Barbès Rochechouart", "Place de Clichy", "Victor Hugo", "Gabriel Péri",
 	"Porte de Clignancourt", "Denfert Rochereau", "Porte d'Orléans"]
@@ -179,5 +179,6 @@ for i in range (0, len(final)):
 
 print("TRAVELED: {} KM WITH {} STATION CHANGE".format(km, stationChange))
 print("ESTIMATED TIME: {} MINUTES".format(timeConvert(km) + 4*stationChange))
+
 
 
