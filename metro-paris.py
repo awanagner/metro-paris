@@ -13,7 +13,7 @@ E = ["La Défense", "Charles de Gaulle Étoile", "Concorde", "Palais Royal Musé
 	"Daumesnil", "Gare de Lyon", "Barbès Rochechouart", "Place de Clichy", "Victor Hugo", "Gabriel Péri",
 	"Porte de Clignancourt", "Denfert Rochereau", "Porte d'Orléans"]
 
-# lista de borders usadas para a busca #
+# lista de borders usadas para a busca ####
 border = []
 
 # estaçoes visitadas ou nao #
@@ -179,6 +179,7 @@ for i in range (0, len(final)):
 
 print("TRAVELED: {} KM WITH {} STATION CHANGE".format(km, stationChange))
 print("ESTIMATED TIME: {} MINUTES".format(timeConvert(km) + 4*stationChange))
+
 
 
 
